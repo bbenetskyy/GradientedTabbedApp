@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GradientedTabbedApp.Views.NewItemPage"
+             ControlTemplate="{StaticResource PageWithGradient}"
              Title="New Item">
 
     <ContentPage.ToolbarItems>
