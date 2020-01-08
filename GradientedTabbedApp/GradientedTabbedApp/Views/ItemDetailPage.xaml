@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GradientedTabbedApp.Views.ItemDetailPage"
+             ControlTemplate="{StaticResource PageWithGradient}"
              Title="{Binding Title}">
     <!--<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
