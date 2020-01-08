@@ -20,5 +20,24 @@
                 <ContentPresenter />
             </Grid>
         </ControlTemplate>
+        <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+            <Setter Property="ControlTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Grid>
+                            <magicGradients:GradientView VerticalOptions="FillAndExpand">
+                                <magicGradients:GradientView.GradientSource>
+                                    <magicGradients:LinearGradient Angle="135">
+                                        <magicGradients:GradientStop Color="#338af9" Offset="0" />
+                                        <magicGradients:GradientStop Color="#2ff8ff" Offset="1" />
+                                    </magicGradients:LinearGradient>
+                                </magicGradients:GradientView.GradientSource>
+                            </magicGradients:GradientView>
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>
