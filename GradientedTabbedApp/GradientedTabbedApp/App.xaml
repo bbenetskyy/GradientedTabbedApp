@@ -38,7 +38,7 @@
                         <Grid>
                             <magicGradients:GradientView VerticalOptions="FillAndExpand">
                                 <magicGradients:GradientView.GradientSource>
-                                    <magicGradients:LinearGradient Angle="135">
+                                    <magicGradients:LinearGradient Angle="320">
                                         <magicGradients:GradientStop Color="#338af9" Offset="0" />
                                         <magicGradients:GradientStop Color="#2ff8ff" Offset="1" />
                                     </magicGradients:LinearGradient>
