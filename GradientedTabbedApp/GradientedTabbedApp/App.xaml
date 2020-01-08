@@ -7,6 +7,17 @@
              mc:Ignorable="d"
              x:Class="GradientedTabbedApp.App">
     <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="PlaceholderColor" Value="White"/>
+        </Style>
+        <Style TargetType="Editor">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="PlaceholderColor" Value="White"/>
+        </Style>
         <!--<ControlTemplate x:Key="PageWithGradient">
             <Grid>
                 <magicGradients:GradientView VerticalOptions="FillAndExpand">
